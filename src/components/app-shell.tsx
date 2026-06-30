@@ -29,6 +29,7 @@ import {
   SidebarTrigger,
 } from "@/components/ui/sidebar";
 import { ResponsibleAIBadge } from "./responsible-ai-panel";
+import { Toaster } from "@/components/ui/sonner";
 
 const primaryNav = [
   { title: "Dashboard", url: "/", icon: LayoutDashboard },
