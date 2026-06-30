@@ -75,6 +75,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         content: "Intelligent assistance for Student Systems, Records & Registration.",
       },
       { property: "og:type", content: "website" },
+      { name: "twitter:title", content: "AI Academic Administration Copilot" },
+      { name: "description", content: "An AI-powered workplace productivity platform for Student System Records and Registration." },
+      { property: "og:description", content: "An AI-powered workplace productivity platform for Student System Records and Registration." },
+      { name: "twitter:description", content: "An AI-powered workplace productivity platform for Student System Records and Registration." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/e7b5ab9e-6b03-4124-b296-695f7ae28afd/id-preview-e1503d68--581007c9-30ba-4471-a716-d0299b14eec4.lovable.app-1782823504338.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/e7b5ab9e-6b03-4124-b296-695f7ae28afd/id-preview-e1503d68--581007c9-30ba-4471-a716-d0299b14eec4.lovable.app-1782823504338.png" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
