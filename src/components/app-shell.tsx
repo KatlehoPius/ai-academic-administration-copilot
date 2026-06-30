@@ -127,7 +127,6 @@ export function AppShell({ children }: { children: ReactNode }) {
         </div>
         <Toaster />
       </div>
-      </div>
     </SidebarProvider>
   );
 }
